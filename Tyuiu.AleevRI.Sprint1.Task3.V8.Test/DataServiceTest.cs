@@ -16,7 +16,7 @@ namespace Tyuiu.AleevRI.Sprint1.Task3.V8.Test
             double percent = 20;
             double timeDays = 30;
             var res = ds.IncomeAmount(startAmoun, percent, timeDays);
-            Assert.AreEqual(2541, res);
+            Assert.AreEqual(2541.10, Math.Round(res, 2));
         }
      
     }

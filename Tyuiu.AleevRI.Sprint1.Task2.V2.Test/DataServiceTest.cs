@@ -14,7 +14,7 @@ namespace Tyuiu.AleevRI.Sprint1.Task2.V2.Test
             DataService ds = new DataService();
             int x = 90;
             var res = ds.ConvertAngleToRad(x);
-            Assert.AreEqual(1.57, res);
+            Assert.AreEqual(1.571, Math.Round(res, 3)); 
 
         }
 
